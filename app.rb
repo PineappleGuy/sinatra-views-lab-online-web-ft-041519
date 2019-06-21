@@ -1,3 +1,4 @@
+require 'pry'
 class App < Sinatra::Base
 
 	get '/' do
@@ -13,7 +14,7 @@ class App < Sinatra::Base
 	end
 
 	get '/date' do
-		
+		erb :date
 	end
 
 
